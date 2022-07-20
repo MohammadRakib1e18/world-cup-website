@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
     padding: 2%;
@@ -88,22 +88,22 @@ body {
     box-sizing: border-box;
 }
 
-.menu-button{
+.menu-button {
     padding: 15px 1rem;
     font-size: 20px;
     border-radius: 10px;
     border: none;
     margin: 5px 0;
 }
-.menu-button a{
+.menu-button a {
     text-decoration: none;
     color: black;
 }
 
-#third-menu{
+#third-menu {
     background-color: red;
 }
-#third-menu a{
+#third-menu a {
     color: white;
 }
 
@@ -114,68 +114,60 @@ body {
     grid-gap: 10px;
 }
 
-.blog{
+.blog {
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
-.blog img{
+.blog img {
     width: 100%;
 }
 
-.main-container .icons{
+.main-container .icons {
     display: flex;
     font-size: 0.8rem;
 }
-.main-container .icons .icon{
+.main-container .icons .icon {
     display: flex;
     align-items: center;
     margin-right: 30px;
 }
 
 /* --------------------------------------------------------- */
-footer{
+footer {
+    background-color: #282c2f;
+    color: white;
+    padding: 10px 0;
+}
+.footer-half-part {
+    width: 45%;
+    padding: 2%;
+    margin-left:70px;
+}
+
+.footer-section {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 290px;
-    background-color: #00050a;
-    text-align: center;
-    margin-bottom: 0;
-    padding:5px 50px 0px;
-    color: rgb(181, 178, 187);
+}
+footer p {
+    font-weight: 500;
+    font-size: 15px;
 }
 
-footer img{
-    width:75px;
+footer .icon {
+    padding: 8px;
+    background-color: #857f7d3f;
+    border-radius: 50%;
 }
-
-footer h2{
-    margin:10px;
-    font-size:20px;
+.social-media i {
+    font-size: 1.5em;
+    margin-right: 10px;
+    color: rgba(167, 162, 167, 0.671);
 }
-footer p{
-    margin: 5px;
-    font-size:15px;
-}
-.list {
-    list-style-type: none;
-    display: flex;
-    font-family: "Times New Roman";
-}
-.list a{
+footer a {
     text-decoration: none;
+    margin: 4px 0;
 }
-
-footer .list-item{
-    font-size: 1em;
-    color: rgb(109, 30, 30);
-    padding:5px 10px;
-    background-color: #c9bfbf;
-    border-radius: 10px;
-    margin-left: 20px;
-}
-#copyright{
-    margin-top: auto;
+#copyright {
+    text-align: center;
+    color: rgb(236, 194, 194);
 }
