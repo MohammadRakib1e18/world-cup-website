@@ -1,0 +1,13 @@
+#first-menu, #third-menu {
+    background-color: white;
+}
+#first-menu a, #third-menu a{
+    color: black;
+}
+
+#second-menu {
+    background-color: rgba(3, 44, 105, 0.904);
+}
+#second-menu a {
+    color: white;
+}
